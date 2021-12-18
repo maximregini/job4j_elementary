@@ -13,6 +13,8 @@ public class Calculator {
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
         System.out.println(onePlusTwo);
-        System.out.println("sixDivTwo = " + sixDivTwo + "\n" + "fiveMinusTwo = " + fiveMinusTwo + "\n" + "fourTimeTwo = " + fourTimeTwo);
+        System.out.println("sixDivTwo = " + sixDivTwo);
+        System.out.println("fiveMinusTwo = " + fiveMinusTwo);
+        System.out.println("fourTimeTwo = " + fourTimeTwo);
     }
 }
