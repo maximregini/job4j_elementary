@@ -7,7 +7,7 @@ public class NameValidator {
         if (result) {
             for (int i = 1; i < name.length(); i++) {
                 int code = name.codePointAt(i);
-                if (!(isUpperLatinLetter(code) || isLowerLatinLetter(code) || isSpecialSymbol(code))) {
+                if (!(isUpperLatinLetter(code) || isLowerLatinLetter(code) || isSpecialSymbol(code) || Character.isDigit(code))) {
                     result = false;
                     break;
                 }
