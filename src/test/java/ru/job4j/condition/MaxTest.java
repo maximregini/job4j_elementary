@@ -31,4 +31,25 @@ public class MaxTest {
         int expected = 76;
         Assert.assertEquals(result, expected);
     }
+
+    @Test
+    public void whenMax69To55ToMin34Then69() {
+        int left = 69;
+        int right = 55;
+        int median = 34;
+        int result = Max.max(left, right, median);
+        int expected = 69;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void whenMax161To98To70Then57() {
+        int left = 161;
+        int right = 98;
+        int median = 79;
+        int dead = 57;
+        int result = Max.max(left, right, median, dead);
+        int expected = 161;
+        Assert.assertEquals(result, expected);
+    }
 }
